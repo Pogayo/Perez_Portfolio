@@ -1,28 +1,26 @@
 import React ,{Component} from 'react'
-import ReactDOM from 'react-dom';
-import Contact from './Contact.js'
+import{NavLink} from "react-router-dom";
+
 export class NavBar extends Component { //the NavBar is stateless now
 
     constructor(props) {
         super(props);
-        this.clickHandler=this.clickHandler.bind(this);
+        //this.clickHandler=this.clickHandler.bind(this);
     }
 
-    clickHandler(event){
-        ReactDOM.render(<Contact/>, document.getElementById('contact'));
-    }
+
 
     render() {
 
         return(
         <div id="nav" className="bars">
             <div>
-         <a className="nav-links" href="" >Perez Ogayo</a>
+         <NavLink className="nav-links" to="/" >Perez Ogayo</NavLink>
                 <div className="right-justified">
-            <a className="nav-links" href="../public/about.html" onClick={clickHandler(this)}>About</a>
-            <a className="nav-links" href="../public/portfolio.html">Portfolio</a>
-            <a className="nav-links" href="../public/contact.html">Contact</a>
-                    <a className="nav-links" href="../public/gallery.html">Gallery</a></div>
+            <NavLink className="nav-links" to="/about" >About</NavLink>
+            <NavLink className="nav-links" to="/portfolio">Portfolio</NavLink>
+            <NavLink className="nav-links" to="/contact">Contact</NavLink>
+                    <NavLink className="nav-links" to="/gallery">Gallery</NavLink></div>
             </div>
         </div>);
 

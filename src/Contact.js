@@ -8,10 +8,8 @@ import {ContactForm} from './ContactForm'
 class Contact extends Component {
     render() {
         return (
-            <div>
-                <NavBar/>
+            <div className="pages">
                 <ContactForm/>
-                <Footer/>
             </div>
         );
     }
