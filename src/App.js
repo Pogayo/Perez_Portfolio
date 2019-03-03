@@ -11,15 +11,9 @@ import Gallery from "./Gallery";
 import Portfolio from "./Portfolio";
 
 
-
-
-
-
 class App extends Component {
   render() {
     return (
-
-
         <BrowserRouter>
             <div>
             <NavBar/>
