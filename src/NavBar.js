@@ -20,7 +20,7 @@ export class NavBar extends Component { //the NavBar is stateless now
             <NavLink className="nav-links" to="/about" >About</NavLink>
             <NavLink className="nav-links" to="/portfolio">Portfolio</NavLink>
             <NavLink className="nav-links" to="/contact">Contact</NavLink>
-                    <NavLink className="nav-links" to="/gallery">Gallery</NavLink></div>
+                    <NavLink className="nav-links" to="">Gallery</NavLink></div>
             </div>
         </div>);
 

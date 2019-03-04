@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import './App.css';
 import codepic from "./img/code-pic.jpg";
 import Skills from "./Skills"
+import FromMyPorfolio from "./FromMyPorfolio";
 
 class Home extends Component {
     render() {
@@ -15,6 +16,7 @@ class Home extends Component {
                     <p style={{width:"350px"}}>I identify as a people-loving young African female existing to leverage the existing technology and the fantastic potential in humanity to transform the world.  I am a passionate entrepreneur who cofounded Nishati Power, Pick&Go and Mshauri Trust.</p>
                 </div>
                 <Skills/>
+                <FromMyPorfolio/>
             </div>
         );
     }
