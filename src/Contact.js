@@ -8,12 +8,13 @@ import {ContactForm} from './ContactForm'
 class Contact extends Component {
     render() {
         return (
-            <div className="pages">
+            <div className="pages ">
+                <div className="contact-page">
                 <ContactForm/>
                 <div id="contact-inf-container" className="flex-container-col" >
                     <div id="phone" className="contact-inf">
                         <img src={phone} alt="phone icon" width="70px" height="70px" />
-                        <div>
+                        <div >
                             +254790697295<br/>
                             +250785774412
                         </div>
@@ -33,7 +34,7 @@ class Contact extends Component {
                         </div>
                     </div>
                 </div>
-            </div>
+                </div></div>
         );
     }
 }
