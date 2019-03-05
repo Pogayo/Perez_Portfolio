@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import './App.css';
 import NishatiPower from './NishatiPower.js'
+import Vuga from './Vuga.js'
 
 class Portfolio extends Component {
     render() {
@@ -8,6 +9,7 @@ class Portfolio extends Component {
             <div className="pages">
                 <p>Portfolio</p>
                 <NishatiPower/>
+                <Vuga/>
             </div>
         );
     }
